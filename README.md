@@ -2,11 +2,6 @@
 Instructions for all major step in a plant genome sequencing project
 
 ---
-title: "Supplementary File: Bioinformatic commands reference"
-authors: Julie Anne Vieira Salgado de Oliveira, Nancy Choudhary, Samuel Nestor Meckoni, Melina Sophie Nowak, Marie Hagedorn, Boas Pucker
-geometry: margin=2cm
-colorlinks: true
----
 
 This document provides exemplary step-by-step commands for ONT long-read sequencing analysis, including basecalling, genome assembly, gene annotation, and final data submission. This hands-on protocol covers the entire process, from public data acquisition to final output assembly, making it accessible even to beginners. Brief explanations accompany each step to ensure that readers cannot only follow the protocol but also understand the methodology and can adapt it to their own research. 
 

@@ -3,7 +3,7 @@
 ### v0.15 ###
 
 __usage__ = """
-					python2 clean_fastq_headers.py
+					python3 clean_fastq_headers.py
 					--in <FASTQ_FILE (INPUT)>
 					--out <FASTQ_FILE (OUTPUT)>
 					
@@ -19,7 +19,7 @@ def clean_fastq_header( fastq_file_in, fastq_file_out ):
 	
 	if ".gz" in fastq_file_in:
 		with open( fastq_file_out, "w" ) as out:
-			with gzip.open( fastq_file_in, "rb" ) as f:
+			with gzip.open( fastq_file_in, "rt" ) as f:
 				line = f.readline()
 				while line:
 					out.write( line.split( '\t')[0] + "\n" )
@@ -52,4 +52,3 @@ if '--in' in sys.argv and '--out' in sys.argv:
 	main( sys.argv )
 else:
 	sys.exit( __usage__ )
-

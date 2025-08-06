@@ -1211,10 +1211,12 @@ https://dx.doi.org/10.1093/gigascience/giab008
 <a id="9">[9]</a>
 Shen W, Sipos B, Zhao L. SeqKit2: A swiss army knife for sequence and alignment processing. iMeta.
 2024;3(3):e191.
+
 <a id="10">[10]</a>
 Stanojević D, Lin D, Nurk S, Sessions PF de, Šikić M. Telomere-to-telomere phased genome assembly using
 HERRO-corrected simplex nanopore reads. 2024 Oct;2024.05.18.594796. Available from: https://www.bi
 orxiv.org/content/10.1101/2024.05.18.594796v2
+
 <a id="11">[11]</a>
 Shafin K, Pesout T, Lorig-Roach R, Haukness M, Olsen HE, Bosworth C, Armstrong J, Tigyi K, Maurer N, Ko-
 ren S, Sedlazeck FJ, Marschall T, Mayes S, Costa V, Zook JM, Liu KJ, Kilburn D, Sorensen M, Munson KM,

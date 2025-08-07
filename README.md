@@ -898,7 +898,8 @@ Rfam database is a comprehensive database including sequence datasets of most no
     
 - rRNAs: 
 
-    (a) RNAmmer [[35]](#35) : <https://services.healthtech.dtu.dk/services/RNAmmer-1.2/> 
+    (a) RNAmmer [[35]](#35) : <https://services.healthtech.dtu.dk/services/RNAmmer-1.2/>
+  
     (b) SSU-ALIGN [[36]](#36) : <http://eddylab.org/software/ssu-align/>
 
 ## Step 11: Functional Annotation

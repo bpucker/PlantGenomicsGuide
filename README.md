@@ -902,6 +902,8 @@ Rfam database is a comprehensive database including sequence datasets of most no
   
     (b) SSU-ALIGN [[36]](#36) : <http://eddylab.org/software/ssu-align/>
 
+---
+
 ## Step 11: Functional Annotation
 
 Functional annotation involves predicting the biological role of each protein-coding gene. This includes assigning functional terms (GO, KEGG), identifying homologs, and classifying proteins into families or pathways.
@@ -1077,7 +1079,7 @@ agat_sp_fix_features_locations_duplicated.pl \
 
 `-f` is the input standardized GFF3 file and `-o` is the output GFF3 file with duplicated feature locations removed.
 
-### 12.1 Submission to EMBL-EBI's ENA
+#### 12.2.1 Submission to EMBL-EBI's ENA
 
 Documentation: <https://ena-docs.readthedocs.io/en/latest/submit/assembly/genome.html>
 
@@ -1116,7 +1118,7 @@ java -jar webin-cli-8.2.0.jar -validate -context genome -manifest /path/to/manif
 
 If validation passes without errors, you can remove -validate to proceed with submission. Errors will be detailed in the .report files in the output directory.
 
-### 12.2 Submission to NCBI
+#### 12.2.2 Submission to NCBI
 
 Documentation: <https://www.ncbi.nlm.nih.gov/genbank/genomesubmit/>
 

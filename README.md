@@ -831,7 +831,8 @@ Once an annotation is merged and sufficiently filtered (reasonable number of gen
 java -jar /path/to/GeMoMa-1.9.jar CLI AnnotationFinalizer \ 
  g=/path/to/Victoria_cruziana.genome.fa \
  a=/path/to/gemoma/Vcruz_filter_01/filtered_predictions.gff \
- p=Vcruz_ outdir=/path/to/gemoma/Vcruz_final_01/ n=false
+ tf=true rename=SIMPLE p=Vcruz_ \
+ outdir=/path/to/gemoma/Vcruz_final_01/ n=false
 ```
 After this step, all genes will be named uniformly, e.g., Vcruz_00001, Vcruz_00002, etc.
 

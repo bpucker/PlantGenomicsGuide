@@ -344,7 +344,7 @@ For the second step (GPU intensive), only uncompressed input FASTQ files are sup
 
 Official Shasta [[11]](#11) documentation: <https://paoloshasta.github.io/shasta/> 
 
-Shasta is a fast and efficient assembler for ONT long reads. It uses advanced algorithms to assemble genomes quickly while requiring comparatively modest computational resources. Depending on the type of flow cell used (e.g., R9.4.1, R10.4.1) and whether the reads have undergone prior correction, different pre-configured settings (configuration files) should be used to optimize performance. Key parameters are `--input` specifying the input reads (in FASTA or FASTQ format), `--config` for suitable configuration file, `--assemblyDirectory` defines the output folder where the assembly results will be written, and `--threads` sets the number of CPU threads to use.
+Shasta is a fast and efficient assembler for ONT long reads. It uses advanced algorithms to assemble genomes quickly while requiring comparatively modest computational resources. Depending on the type of flow cell used (e.g., R9.4.1, R10.4.1) and whether the reads have undergone prior correction, different pre-configured settings (configuration files) should be used to optimize performance. Key parameters are `--input` specifying the input reads (in FASTA or FASTQ format), `--config` for suitable configuration file, `--assemblyDirectory` defines the output folder where the assembly results will be written, and `--threads` sets the number of CPU threads to use. The `.conf` files can be downloaded from here: <https://github.com/paoloshasta/shasta/tree/main/conf>
 
 ```bash
 /path/to/binary/shasta-Linux-0.14.0 \
@@ -684,7 +684,7 @@ BRAKER3 [[25]](#25) is a fully automated pipeline for annotating protein-coding 
 
 #### 10.1.2.1 Obtaining Protein Hints
 
-Protein hints guide BRAKER3 to make more accurate predictions. The source for these protein hints can be the precompiled protein hints from OrthoDB 12 [[16]](#16) (<https://bioinf.uni-greifswald.de/bioinf/partitioned_odb12/> ;`Viridiplantae`). Additional peptide sequences from UniProt database [[26]](#26) can be included. Using advanced UniProt search, a broader taxon can be given via the 'Taxonomy' search field. Example, in the case of *Victoria cruziana*, its order Nymphaeales [261007](which translates to the search key "(taxonomy_id:261007)"). Multiple FASTA files as a comma-separated list for the `--prot_seq` parameter can be given.
+Protein hints guide BRAKER3 to make more accurate predictions. The source for these protein hints can be the precompiled protein hints from OrthoDB 12 [[16]](#16) (<https://bioinf.uni-greifswald.de/bioinf/partitioned_odb12/> ;`Viridiplantae`). Additional peptide sequences from UniProt database [[26]](#26) can be included. Using advanced UniProt search, a broader taxon can be given via the 'Taxonomy' search field. Example, in the case of *Victoria cruziana*, its order Nymphaeales [261007] (which translates to the search key "(taxonomy_id:261007)"). Multiple FASTA files as a comma-separated list for the `--prot_seq` parameter can be given.
 
 #### 10.1.2.2 BRAKER3 Command
 

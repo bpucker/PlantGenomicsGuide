@@ -350,7 +350,7 @@ Shasta is a fast and efficient assembler for ONT long reads. It uses advanced al
 /path/to/binary/shasta-Linux-0.14.0 \
  --threads 10 \
  --input /path/to/Victoria_cruziana.corrected_reads.fasta \
- --config /path/to/Nanopore-r10.4.1_e8.2-400bps_sup-Herro-Jan2025_red_bp.conf \
+ --config /path/to/Nanopore-r10.4.1_e8.2-400bps_sup-Herro-Jan2025.conf \
  --assemblyDirectory /path/to/shasta/Vcruz_01
 ```
 
@@ -953,11 +953,11 @@ To run InterProScan, first obtain a copy of the tool, unpack it, setup and then 
 # Must return *interproscan-5.75-106.0-64-bit.tar.gz: OK*
 # If not - try downloading the file again as it may be a corrupted copy.
 
- tar -pxvzf interprocan-5.75-106.0-*-bit.tar.gz
- cd interprocan-5.75*
+ tar -pxvzf interproscan-5.75-106.0-*-bit.tar.gz
+ cd interproscan-5.75*
 
 #to prepare hmm models into a format used by hmmscan
- python3 setup.py -f interprocan.properties 
+ python3 setup.py -f interproscan.properties 
 
 #Run InterProScan
  ./interproscan.sh -i /path/to/Victoria_cruziana.pep.fasta \
